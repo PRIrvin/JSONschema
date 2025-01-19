@@ -13,8 +13,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder">
-			<Item Name="JSON-Schema.vipb" Type="Document" URL="../../../../build support/JSON-Schema.vipb"/>
-			<Item Name="JSON-Schema.vipc" Type="Document" URL="../../../../build support/JSON-Schema.vipc"/>
+			<Item Name="JSON-Schema.vipb" Type="Document" URL="../build support/JSON-Schema.vipb"/>
+			<Item Name="JSON-Schema.vipc" Type="Document" URL="../build support/JSON-Schema.vipc"/>
 		</Item>
 		<Item Name="JSON-Schema.lvlib" Type="Library" URL="../JSON-Schema/JSON-Schema.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
