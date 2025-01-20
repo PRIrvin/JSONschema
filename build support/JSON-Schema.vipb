@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2025-01-09 11:33:22" Modified_Date="2025-01-19 10:59:14" Creator="Patrick Irvin" Comments="" ID="509c76e4c2dc4efca11ec9a1427dcb70">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2025-01-09 11:33:22" Modified_Date="2025-01-20 11:38:01" Creator="Patrick Irvin" Comments="" ID="b5430fca94d678159a94faf8dd95055f">
   <Library_General_Settings>
     <Package_File_Name>prirvin_lib_json_schema</Package_File_Name>
-    <Library_Version>0.1.2.7</Library_Version>
+    <Library_Version>0.1.3.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\JSON-Schema</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -42,7 +42,11 @@
       <Copyright>Copyright (c) 2025, Patrick Irvin</Copyright>
       <Packager/>
       <URL>https://github.com/PRIrvin</URL>
-      <Release_Notes>change organization and install location</Release_Notes>
+      <Release_Notes>Documentation and project organization
+- split project into JSON-Schea and TEST-JSON-Schema
+- remove test-json-schema.lvlib from json-schema.lvb
+- add additional VI descriptions to API methods
+- fix broken development VI</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -375,7 +379,7 @@
         <Path>..\JSON-Schema\API\Create JSON Schema.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>291B37704C1A2AED7A23772C21D1494B</GUID>
+      <GUID>F13B6E9CB4D955ADDB17156F7710EFE1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -424,7 +428,7 @@
         <Path>..\JSON-Schema\private\Recursive Merge.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>06CA9349BA3D93F80EBF58933C32D330</GUID>
+      <GUID>75790B3C729A5DDA5ECB8D96F6FA9ED0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
