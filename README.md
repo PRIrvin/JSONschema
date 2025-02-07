@@ -6,7 +6,7 @@ Based on JSONtext, this library adds additional methods to add additional schema
 Initially developed for use by [Instrument Framework](https://github.com/levylabpitt/Instrument-Framework)
 
 ## Getting Started
-- JSONrpc is developed and packaged in LabVIEW 2019
+- JSONschema is developed and packaged in LabVIEW 2019
 - Download and install using the VI Package Manager as described [here](https://levylabpitt.github.io/)
 
 ## Usage
