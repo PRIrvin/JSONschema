@@ -1,6 +1,6 @@
 # JSONschema
 
-**JSONschema** is a LabVIEW library designed to generate [JSON Schema](https://json-schema.org/) specifications from LabVIEW datatypes. It is built on top of [JSONtext](https://github.com/JKISoftware/JSONtext), extending it with additional methods for schema-specific keywords such as `minimum`, `maximum`, and more.
+**JSONschema** is a LabVIEW library designed to generate [JSON Schema](https://json-schema.org/) specifications from LabVIEW datatypes. It is built on top of [JSONtext](https://lavag.org/files/file/294-jsontext/), extending it with additional methods for schema-specific keywords such as `minimum`, `maximum`, and more.
 
 The library was originally developed for use by the [Instrument Framework](https://github.com/levylabpitt/Instrument-Framework), but is useful for any LabVIEW developer needing to serialize or validate LabVIEW data structures as JSON according to a formal schema.
 
