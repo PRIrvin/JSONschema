@@ -16,8 +16,8 @@
 		<Item Name="Create JSON Schema.vi" Type="VI" URL="../API/Create JSON Schema.vi"/>
 		<Item Name="Initialize JSON Schema.vi" Type="VI" URL="../API/Initialize JSON Schema.vi"/>
 		<Item Name="Choose JSON Schema Dialect.vi" Type="VI" URL="../API/Choose JSON Schema Dialect.vi"/>
-		<Item Name="Read Typedef Description.vi" Type="VI" URL="../API/Read Typedef Description.vi"/>
-		<Item Name="Read Typedef Description (variant).vi" Type="VI" URL="../API/Read Typedef Description (variant).vi"/>
+		<Item Name="Read Typedef Description.vi" Type="VI" URL="/&lt;vilib&gt;/PRIrvin/JSON-Schema/API/Read Typedef Description.vi"/>
+		<Item Name="Read Typedef Description (variant).vi" Type="VI" URL="/&lt;vilib&gt;/PRIrvin/JSON-Schema/API/Read Typedef Description (variant).vi"/>
 		<Item Name="Read Typedef Description (path).vi" Type="VI" URL="../API/Read Typedef Description (path).vi"/>
 		<Item Name="Write Typedef Description.vi" Type="VI" URL="../API/Write Typedef Description.vi"/>
 		<Item Name="Write Typedef Description (variant).vi" Type="VI" URL="../API/Write Typedef Description (variant).vi"/>
@@ -30,6 +30,7 @@
 	<Item Name="private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Recursive Merge.vi" Type="VI" URL="../private/Recursive Merge.vi"/>
+		<Item Name="Recursive Find Items.vi" Type="VI" URL="../private/Recursive Find Items.vi"/>
 		<Item Name="Add enum Type to JSON Schema.vi" Type="VI" URL="../private/Add enum Type to JSON Schema.vi"/>
 	</Item>
 	<Item Name="develop" Type="Folder">
@@ -41,4 +42,6 @@
 		<Item Name="Get Object Dependencies.vi" Type="VI" URL="../develop/Get Object Dependencies.vi"/>
 	</Item>
 	<Item Name="Tree.vi" Type="VI" URL="../Tree.vi"/>
+	<Item Name="Get Path Parent and Child.vi" Type="VI" URL="../private/Get Path Parent and Child.vi"/>
+	<Item Name="Build JSON Path.vi" Type="VI" URL="../API/Build JSON Path.vi"/>
 </Library>
