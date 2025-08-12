@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2025-01-09 11:33:22" Modified_Date="2025-01-31 16:24:52" Creator="Patrick Irvin" Comments="" ID="c3fa3feeafe3506f115c6f3fc48668a4">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2025-01-09 11:33:22" Modified_Date="2025-08-12 17:25:05" Creator="Patrick Irvin" Comments="" ID="48e59880b54cc85d290c08bc4bd9968c">
   <Library_General_Settings>
     <Package_File_Name>prirvin_lib_json_schema</Package_File_Name>
-    <Library_Version>0.1.4.9</Library_Version>
+    <Library_Version>0.2.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\JSON-Schema</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -42,7 +42,11 @@
       <Copyright>Copyright (c) 2025, Patrick Irvin</Copyright>
       <Packager/>
       <URL>https://github.com/PRIrvin</URL>
-      <Release_Notes>enable 64 bit labview</Release_Notes>
+      <Release_Notes>#2 fix Creat JSON Schema (Interactive).vi button logic
+#3 fix schema formatting of cluster and nested clusters
+#4 fix converting table data to json datatypes (converts to numeric rather than string)
+- add tools for building and stripping JSON $Path
+- recursively inspect schema to table and vice versa (useful for nested clusters)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -375,7 +379,35 @@
         <Path>..\JSON-Schema\API\Create JSON Schema.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>52C9F8882FD23990A1701ABCBC108C59</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Build JSON Path.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>6</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\JSON-Schema\API\Build JSON Path.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Strip JSON Path.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>6</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\JSON-Schema\API\Strip JSON Path.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>09FE394E3E5D78CB086692A51FAC5C12</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -424,7 +456,21 @@
         <Path>..\JSON-Schema\private\Recursive Merge.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F3AC3E835509FE9671FE8BF7D486B020</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Recursive Find Items.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\JSON-Schema\private\Recursive Find Items.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>CF73AF9DCD617142F7B9ED3E56E2DFEF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

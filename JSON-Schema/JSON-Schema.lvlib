@@ -12,6 +12,8 @@
 		<Item Name="JSON Schema Dialect--Enum.ctl" Type="VI" URL="../typedefs/JSON Schema Dialect--Enum.ctl"/>
 	</Item>
 	<Item Name="API" Type="Folder">
+		<Item Name="Strip JSON Path.vi" Type="VI" URL="../API/Strip JSON Path.vi"/>
+		<Item Name="Build JSON Path.vi" Type="VI" URL="../API/Build JSON Path.vi"/>
 		<Item Name="Create JSON Schema (Interactive).vi" Type="VI" URL="../API/Create JSON Schema (Interactive).vi"/>
 		<Item Name="Create JSON Schema.vi" Type="VI" URL="../API/Create JSON Schema.vi"/>
 		<Item Name="Initialize JSON Schema.vi" Type="VI" URL="../API/Initialize JSON Schema.vi"/>
@@ -42,6 +44,4 @@
 		<Item Name="Get Object Dependencies.vi" Type="VI" URL="../develop/Get Object Dependencies.vi"/>
 	</Item>
 	<Item Name="Tree.vi" Type="VI" URL="../Tree.vi"/>
-	<Item Name="Get Path Parent and Child.vi" Type="VI" URL="../private/Get Path Parent and Child.vi"/>
-	<Item Name="Build JSON Path.vi" Type="VI" URL="../API/Build JSON Path.vi"/>
 </Library>
