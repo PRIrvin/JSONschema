@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2025-01-09 11:33:22" Modified_Date="2025-01-31 16:24:52" Creator="Patrick Irvin" Comments="" ID="c3fa3feeafe3506f115c6f3fc48668a4">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2025-01-09 11:33:22" Modified_Date="2025-08-12 23:35:10" Creator="Patrick Irvin" Comments="" ID="2f1f119b529c58fc8e185c9eda6b12fb">
   <Library_General_Settings>
     <Package_File_Name>prirvin_lib_json_schema</Package_File_Name>
-    <Library_Version>0.1.4.9</Library_Version>
+    <Library_Version>0.2.0.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\JSON-Schema</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -17,13 +17,13 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>jdp_science_jsontext &gt;= 1.9.0.124</External_Dependencies>
-      <External_Dependencies>jdp_science_lib_common_utilities &gt;= 1.4.1.18</External_Dependencies>
+      <External_Dependencies>jdp_science_jsontext &gt;= 1.9.1.125</External_Dependencies>
+      <External_Dependencies>jdp_science_lib_common_utilities &gt;= 1.4.2.19</External_Dependencies>
       <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
       <External_Dependencies>oglib_appcontrol &gt;= 4.1.0.7</External_Dependencies>
       <Additional_External_Dependencies>prirvin_lib_prirvin_palette &gt;=1.0.0.3</Additional_External_Dependencies>
-      <Direct_Dependencies>jdp_science_jsontext-1.9.0.124</Direct_Dependencies>
-      <Direct_Dependencies>jdp_science_lib_common_utilities-1.4.1.18</Direct_Dependencies>
+      <Direct_Dependencies>jdp_science_jsontext-1.9.1.125</Direct_Dependencies>
+      <Direct_Dependencies>jdp_science_lib_common_utilities-1.4.2.19</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>oglib_appcontrol-4.1.0.7</Direct_Dependencies>
     </Package_Dependencies>
@@ -42,7 +42,11 @@
       <Copyright>Copyright (c) 2025, Patrick Irvin</Copyright>
       <Packager/>
       <URL>https://github.com/PRIrvin</URL>
-      <Release_Notes>enable 64 bit labview</Release_Notes>
+      <Release_Notes>#2 fix Creat JSON Schema (Interactive).vi button logic
+#3 fix schema formatting of cluster and nested clusters
+#4 fix converting table data to json datatypes (converts to numeric rather than string)
+- add tools for building and stripping JSON $Path
+- recursively inspect schema to table and vice versa (useful for nested clusters)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -375,7 +379,35 @@
         <Path>..\JSON-Schema\API\Create JSON Schema.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>52C9F8882FD23990A1701ABCBC108C59</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Build JSON Path.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>6</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\JSON-Schema\API\Build JSON Path.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Strip JSON Path.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>6</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\JSON-Schema\API\Strip JSON Path.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>09FE394E3E5D78CB086692A51FAC5C12</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -424,7 +456,21 @@
         <Path>..\JSON-Schema\private\Recursive Merge.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F3AC3E835509FE9671FE8BF7D486B020</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Recursive Find Items.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\JSON-Schema\private\Recursive Find Items.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>CF73AF9DCD617142F7B9ED3E56E2DFEF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
