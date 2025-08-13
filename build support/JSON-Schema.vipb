@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2025-01-09 11:33:22" Modified_Date="2025-08-12 17:27:03" Creator="Patrick Irvin" Comments="" ID="b9fe9af4d1c841175579a4de1c9b2730">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2025-01-09 11:33:22" Modified_Date="2025-08-12 23:35:10" Creator="Patrick Irvin" Comments="" ID="2f1f119b529c58fc8e185c9eda6b12fb">
   <Library_General_Settings>
     <Package_File_Name>prirvin_lib_json_schema</Package_File_Name>
-    <Library_Version>0.2.0.9</Library_Version>
+    <Library_Version>0.2.0.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\JSON-Schema</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
