@@ -18,12 +18,12 @@
 		<Item Name="Create JSON Schema.vi" Type="VI" URL="../API/Create JSON Schema.vi"/>
 		<Item Name="Initialize JSON Schema.vi" Type="VI" URL="../API/Initialize JSON Schema.vi"/>
 		<Item Name="Choose JSON Schema Dialect.vi" Type="VI" URL="../API/Choose JSON Schema Dialect.vi"/>
-		<Item Name="Read Typedef Description.vi" Type="VI" URL="/&lt;vilib&gt;/PRIrvin/JSON-Schema/API/Read Typedef Description.vi"/>
-		<Item Name="Read Typedef Description (variant).vi" Type="VI" URL="/&lt;vilib&gt;/PRIrvin/JSON-Schema/API/Read Typedef Description (variant).vi"/>
+		<Item Name="Read Typedef Description.vi" Type="VI" URL="../API/Read Typedef Description.vi"/>
 		<Item Name="Read Typedef Description (path).vi" Type="VI" URL="../API/Read Typedef Description (path).vi"/>
+		<Item Name="Read Typedef Description (variant).vi" Type="VI" URL="../API/Read Typedef Description (variant).vi"/>
 		<Item Name="Write Typedef Description.vi" Type="VI" URL="../API/Write Typedef Description.vi"/>
-		<Item Name="Write Typedef Description (variant).vi" Type="VI" URL="../API/Write Typedef Description (variant).vi"/>
 		<Item Name="Write Typedef Description (path).vi" Type="VI" URL="../API/Write Typedef Description (path).vi"/>
+		<Item Name="Write Typedef Description (variant).vi" Type="VI" URL="../API/Write Typedef Description (variant).vi"/>
 		<Item Name="Add Object to JSON Schema.vi" Type="VI" URL="../API/Add Object to JSON Schema.vi"/>
 		<Item Name="JSON Schema Pretty Print.vi" Type="VI" URL="../API/JSON Schema Pretty Print.vi"/>
 		<Item Name="JSON Schema to Table.vi" Type="VI" URL="../API/JSON Schema to Table.vi"/>
